@@ -2,23 +2,6 @@
 
 Sample from storefront project using node js, postgresql.
 
-### Setting up the environment
-
-when download project extract it, inside the project's main directory, create a plain text file named '.env'
-that will hold the configuration. The file should look like this:
-
-```
-PORT=3000
-POSTGRES_HOST=localhost
-POSTGRES_DB=store
-POSTGRES_TEST_DB=store
-POSTGRES_USER=test_user
-POSTGRES_PASSWORD=test_user
-SALT_ROUNDS=10
-BCRYPT_PASSWORD=pepperkake
-TOKEN_SECRET=salzteig
-```
-
 If the `ENV` variable is set to test, the `store_test` database will be used
 instead of the `store` database later on.
 
